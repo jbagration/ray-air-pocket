@@ -49,7 +49,7 @@ img{
 }
 
 .header{
-    background-image: url(/images/header.jpg);
+    background-image: url(../images/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -61,7 +61,7 @@ img{
 header::before{
     content: "";
     position: absolute;
-    background-image: url(/images/header-decor.svg);
+    background-image: url(../images/header-decor.svg);
     bottom: 0;
     left: 0;
     right: 0;
@@ -76,7 +76,7 @@ header::before{
 header::after{
     content: "";
     position: absolute;
-    background-image: url(/images/header-decor.svg);
+    background-image: url(../images/header-decor.svg);
     bottom: 0;
     left: 0;
     right: 0;
@@ -186,7 +186,7 @@ header::after{
 }
 
 .info{
-    background-image: url(/images/info-bg.jpg);
+    background-image: url(../images/info-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -353,7 +353,7 @@ header::after{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/Star.svg);
+    background-image: url(../images/Star.svg);
     transition: transform .3s;
 }
 
@@ -389,7 +389,7 @@ header::after{
 }
 
 .technology__top{
-    background-image: url(/images/tech-bg.png);
+    background-image: url(../images/tech-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
